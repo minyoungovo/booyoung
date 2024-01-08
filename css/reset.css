@@ -1,0 +1,17 @@
+*{margin:0; padding:0; color: #222}
+ul, li{list-style: none} 
+a{text-decoration: none; color: #222}
+
+/* 글자 - f */
+.f-bold{
+    font-weight: 500;
+}
+.f-c-blue{
+    color: blue;
+}
+
+
+/* 버튼 */
+.btn{
+
+}
