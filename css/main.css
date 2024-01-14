@@ -1,11 +1,13 @@
+main > section {
+    padding: 8vh 0;
+}
 main > section > h3{
     float: left;
-    padding-top: 8vh;
-    padding-bottom: 12vh;
-    padding-left: 12vw;
-    font-size: 3rem;
+    /* padding-top: 4vh; */
+    padding-bottom: 1vh;
+    padding-left: 20vw;
+    font-size: 2.5rem;
 }
-
 #visual{
     background: url('./../images/visual.png') ;
     background-size: cover;
@@ -14,6 +16,7 @@ main > section > h3{
 }
 #visual h3{
     padding-top: 32vh;
+    padding-left: 20vw;
     padding-bottom: 1vh;
     width: 100%;
     box-sizing: border-box;
@@ -28,25 +31,215 @@ main > section > h3{
     font-weight: 500;
 }
 #visual p{
-    margin-left: 12vw;
+    margin-left: 20vw;
 }
 #visual p, #visual .f-c-blue{
     font-size: 2rem;
     font-weight: 300;
 }
-
 #management{
-    border: 1px solid red;
+    position: relative;
+}
+#management .slide-btn{
+    position: absolute;
+    top:60%;
+    left:22vw;
+    transform:translateY(-50%);
+}
+#management .slide-btn li{
+    position: relative;
+}
+#management .slide-btn .page{
+    position: absolute;
+    top: 0; left: -2vw;
+}
+#management .slide-btn li > div{
+    width: 4px;
+    height: 160px;
+    background-color: #eee;
+}
+#management .slide-btn li.active > div{
+    background-color: #222;
+}
+#management .slide-item li{
+    clear: both;
 }
 #management figure{
-    margin-left: 28vw;
-    clear: both;
+    padding-top: 4vh;
+    text-align: center;
 }
 #management figure img{
     margin: 0 auto;
     margin-top: 2vh;
-    width: 60%;
+    width: 50%;
 }
 #management figcaption > *{
+    margin: 0 auto;
+    width: 50%;
     font-size: 1.25rem;
+    text-align: left;
+}
+#management figcaption h4{
+    padding-bottom: 1vh;
+    font-size: 1.25rem;
+}
+#management figcaption p{
+    font-size: 1rem;
+}
+#management .icon-bg{
+    position: absolute;
+    z-index: -1;
+    right: 5vw;
+    bottom: 0;
+}
+#management .icon-bg img{
+    width: 80%;
+}
+#business{
+}
+#business .info{
+    margin-left: 20vw;
+    clear: both;
+    font-size: 1rem;
+}
+#business ul{
+    margin: 0 auto;
+    margin-top: 2vh;
+    /* margin-left: 20vw; */
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+#business li{
+    width: 5%;
+    height: 50vh;
+    cursor: pointer;
+}
+#business li:first-child{
+    width: 60%;
+}
+#business figure{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    /* width: 50%; */
+}
+#business figcaption{
+    position: absolute;
+    top: 50%; left:50%;
+    transform: translate(-50%, -50%);
+}
+#business figcaption > *{
+    text-align: center;
+    color: #fff;
+}
+#business li img{
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+}
+#business li h4{
+    margin: 0 auto;
+    font-size: 2rem;
+    font-weight: 300;
+    writing-mode: vertical-lr;
+}
+#business li:first-child h4{
+    margin-top: 20vh;
+    writing-mode: horizontal-tb;
+}
+#business li p{
+    margin-top: 2vh;
+    display: none;
+}
+#business li:first-child p{
+    display: block;
+}
+#recruit{
+    padding: 0 0;
+}
+#employment{
+    padding: 8vh 0;
+    display: flex;
+    background-color: #22325C;
+}
+#employment .title{
+    padding-top: 10vh;
+    padding-left: 20vw;
+}
+#employment h3{
+    padding-bottom: 1vh;
+    font-size: 2.5rem;
+    color: #fff;
+}
+#employment h3 ~ p{
+    color: #fff;
+}
+#employment .item{
+    margin-left: 4vw;
+}
+#employment .employment-title{
+    padding-bottom: .4vh;
+    display: flex;
+    border-bottom: 1px solid #fff;
+}
+#employment .employment-title h4{
+    font-size: 1.5rem;
+    color: #fff;
+}
+#employment .employment-title p{
+    margin-left: 20vw;
+}
+#employment .employment-title a{
+    color: #fff;
+}
+#employment .employment-order ul{
+    display: flex;
+    width: 100%;
+}
+#employment .employment-order li{
+    padding-top: 4vh;
+    width: 100%;
+    text-align: center;
+}
+#employment .employment-order li p{
+    padding-top: 2vh;
+    color: #fff;
+}
+#daycare{
+    background: url('./../images/bg.png');
+    background-size: cover;
+    height: 50vh;
+}
+#daycare h3{
+    margin-left: 20vw;
+    padding-top: 16vh;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #fff;
+}
+#daycare .f-bold{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fff;
+}
+#daycare p{
+    margin-top: 1vh;
+    margin-left: 20vw;
+    color: #fff;
+}
+
+
+
+#footer{
+    background-color: #222222;
+}
+#footer section{
+    display: flex;
+}
+#footer nav a{
+    color: #aaaaaa;
+}
+#footer h2 img{
+    filter: brightness(0) invert(0.3);
+    width: 160px;
 }

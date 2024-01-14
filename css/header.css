@@ -59,6 +59,7 @@
     padding: 8px 24px;
     border-radius: 100px;
     color: #fff;
+    font-size: 1rem;
 }
 #nav .site-btn a:hover{
     background-color: #fff;
