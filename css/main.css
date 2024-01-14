@@ -1,0 +1,52 @@
+main > section > h3{
+    float: left;
+    padding-top: 8vh;
+    padding-bottom: 12vh;
+    padding-left: 12vw;
+    font-size: 3rem;
+}
+
+#visual{
+    background: url('./../images/visual.png') ;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+#visual h3{
+    padding-top: 32vh;
+    padding-bottom: 1vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+#visual h3 > span{
+    font-size: 3.5rem;
+}
+#visual h3 > span{
+    font-weight: 300;
+}
+#visual h3 > span.f-bold{
+    font-weight: 500;
+}
+#visual p{
+    margin-left: 12vw;
+}
+#visual p, #visual .f-c-blue{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+#management{
+    border: 1px solid red;
+}
+#management figure{
+    margin-left: 28vw;
+    clear: both;
+}
+#management figure img{
+    margin: 0 auto;
+    margin-top: 2vh;
+    width: 60%;
+}
+#management figcaption > *{
+    font-size: 1.25rem;
+}

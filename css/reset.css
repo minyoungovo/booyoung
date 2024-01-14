@@ -1,10 +1,12 @@
-*{margin:0; padding:0; color: #222}
+*{margin:0; padding:0; font-size: 16px; color: #222; font-family: 'Noto Sans Kr', sans-serif;}
 ul, li{list-style: none} 
 a{text-decoration: none; color: #222}
 
+
+
 /* 글자 - f */
 .f-bold{
-    font-weight: 500;
+    font-weight: 1000;
 }
 .f-c-blue{
     color: blue;
@@ -14,4 +16,19 @@ a{text-decoration: none; color: #222}
 /* 버튼 */
 .btn{
 
+}
+
+.go-btn{
+    float: left;
+    border:1px solid #222;
+    padding: 8px 24px;
+    margin-left: 1.5vw;
+    margin-top: 10vh;
+    border-radius: 100px;
+    color: #222;
+    cursor: pointer;
+}
+.go-btn:hover{
+    background-color: #222;
+    color: #fff;
 }
